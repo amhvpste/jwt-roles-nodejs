@@ -4,7 +4,7 @@ import authRouter from './authRouter.js';
 
 const PORT = process.env.PORT || 5000;
 
-const DB_URL = "mongodb+srv://test:test@cluster0.0csjdi1.mongodb.net/test-jwt?retryWrites=true&w=majority&appName=Cluster0";
+const DB_URL = "your url";
 
 const app = express();
 app.use(express.json());
